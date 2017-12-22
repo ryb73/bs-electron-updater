@@ -23,5 +23,8 @@
   },
   "peerDependencies": {
     "bs-platform": "^2.0.0"
+  },
+  "dependencies": {
+    "electron-updater": "^2.17.6"
   }
 }
