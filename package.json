@@ -1,0 +1,27 @@
+{
+  "name": "bs-electron-updater",
+  "version": "1.0.0",
+  "description": "BuckleScript bindings for electron-updater",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && bsb -make-world",
+    "watch": "npm run clean && bsb -make-world -w",
+    "clean": "rm -rf lib && bsb -clean-world"
+  },
+  "keywords": [
+    "bucklescript",
+    "reason",
+    "reasonml"
+  ],
+  "license": "MIT",
+  "author": "Ryan Biwer",
+  "_": [],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryb73/bs-electron-updater.git"
+  },
+  "peerDependencies": {
+    "bs-platform": "^2.0.0"
+  }
+}
